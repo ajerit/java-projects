@@ -1,4 +1,7 @@
 /******************************************************************************
+ * Laboratorio de Algoritmos III
+ * Adolfo Jeritson. 12-01523
+ *
  *  Compilation:  javac Graph.java        
  *  Execution:    java Graph input.txt
  *  Dependencies: Bag.java In.java StdOut.java

@@ -1,4 +1,7 @@
 /******************************************************************************
+ * Laboratorio de Algoritmos III
+ * Adolfo Jeritson. 12-01523
+ *
  *  Compilation:  javac AdjMatrixDigraph.java
  *  Execution:    java AdjMatrixDigraph input.txt
  *  Dependencies: StdOut.java Arc.java

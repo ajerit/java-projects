@@ -1,4 +1,7 @@
 /******************************************************************************
+ * Laboratorio de Algoritmos III
+ * Adolfo Jeritson. 12-01523
+ *
  *  Compilation:  javac AdjMatrix.java
  *  Execution:    java AdjMatrix input.txt
  *  Dependencies: StdOut.java Arc.java
@@ -47,6 +50,7 @@ import java.util.InputMismatchException;
  *  @author Robert Sedgewick
  *  @author Kevin Wayne
  *  @author Guillermo Palma
+ *  @author Adolfo Jeritson
  */
 public class AdjMatrix {
     private static final String NEWLINE = System.getProperty("line.separator");

@@ -1,4 +1,7 @@
 /******************************************************************************
+ * Laboratorio de Algoritmos III
+ * Adolfo Jeritson. 12-01523
+ *
  *  Compilation:  javac DirectedEdge.java
  *  Execution:    java DirectedEdge
  *  Dependencies: StdOut.java
