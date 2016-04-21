@@ -161,9 +161,7 @@ public class AdjMatrix {
 
     // Retorna un booleano si el vertice pertenece al grafo.
 	public boolean containsVertex(int v) {
-		validateVertex(v);
-		return true;
-		
+		return (v < 0 || v >= V) ? false : true;
 	}
 	
 	// Retorna un booleano si el lado pertenece al grafo.
@@ -171,7 +169,6 @@ public class AdjMatrix {
 		validateVertex(v);
 		validateVertex(w);
 		return (adj[v][w] >= 1) ? true : false;
-
 	}
 	
 	// Retorna la lista de adyacencias de un vertice dado.

@@ -204,8 +204,7 @@ public class Graph {
     
     // Retorna un booleano que indica si el vertice pertenece al grafo.
 	public boolean containsVertex(int v) {
-        validateVertex(v);
-        return true;
+        return (v < 0 || v >= V) ? false : true;
 	}
 	
     // Retorna un boleano que indica si el lado pertenece al grafo.
