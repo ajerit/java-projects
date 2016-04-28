@@ -62,7 +62,7 @@ public class Graph {
     private final int V;
     private int E;
     private Bag<Integer>[] adj;
-    
+    private Stack<Integer> cycle = new Stack<Integer>();
     /**
      * Initializes an empty graph with <tt>V</tt> vertices and 0 edges.
      * param V the number of vertices
@@ -138,6 +138,25 @@ public class Graph {
     public int E() {
         return E;
     }
+    
+    private static class Edge {
+		private final int v;
+		private final int w;
+		private boolean isUsed;
+
+		public Edge(int v, int w) {
+			this.v = v;
+			this.w = w;			
+			isUsed = false;
+		}
+
+		// returns the other vertex of the edge
+		public int other(int vertex) {
+			if      (vertex == v) return w;
+			else if (vertex == w) return v;
+			else throw new IllegalArgumentException("Illegal endpoint");
+		}		
+	}
 
     // throw an IndexOutOfBoundsException unless 0 <= v < V
     private void validateVertex(int v) {
@@ -240,9 +259,101 @@ public class Graph {
      */
 	public Bag<Integer> getListAdy(int v) {
 		validateVertex(v);
-		return adj[v];
-		
+		return adj[v];	
 	}
+	
+    /**
+     * Verificar si el grafo tiene ciclo de Euler
+	 *
+     * @return booleano que indica si el grafo tiene ciclo de Euler
+     */
+	public boolean hasEuler() {
+		boolean hasEuler = true;
+		for (int v = 0; v<V;v++) {
+			if (degree(v) % 2 != 0)
+				hasEuler = false;
+		}
+		return hasEuler;
+	}
+
+
+    // returns any non-isolated vertex; -1 if no such vertex
+    private int nonIsolatedVertex() {
+        for (int v = 0; v < V; v++)
+            if (degree(v) > 0)
+                return v;
+        return -1;
+    }
+
+    /**
+     * Returns the sequence of vertices on an Eulerian cycle.
+     * 
+     * @return the sequence of vertices on an Eulerian cycle;
+     *         <tt>null</tt> if no such cycle
+     */
+    public Iterable<Integer> cycle() {
+        return cycle;
+    }
+	
+    /**
+     * Computes an Eulerian cycle in the specified graph, if one exists.
+     * 
+     * @returns cycle 
+     */
+	public Stack<Integer> getCicloEuleriano() {
+
+        // create local view of adjacency lists, to iterate one vertex at a time
+        // the helper Edge data type is used to avoid exploring both copies of an edge v-w
+        Queue<Edge>[] adj = (Queue<Edge>[]) new Queue[V];
+        for (int v = 0; v < V; v++)
+            adj[v] = new Queue<Edge>();
+
+        for (int v = 0; v < V; v++) {
+            int selfLoops = 0;
+            for (int w : this.adj(v)) {
+                // careful with self loops
+                if (v == w) {
+                    if (selfLoops % 2 == 0) {
+                        Edge e = new Edge(v, w);
+                        adj[v].enqueue(e);
+                        adj[w].enqueue(e);
+                    }
+                    selfLoops++;
+                }
+                else if (v < w) {
+                    Edge e = new Edge(v, w);
+                    adj[v].enqueue(e);
+                    adj[w].enqueue(e);
+                }
+            }
+        }
+        
+        // initialize stack with any non-isolated vertex
+        int s = nonIsolatedVertex();
+        Stack<Integer> stack = new Stack<Integer>();
+        stack.push(s);
+
+        // greedily search through edges in iterative DFS style
+        cycle = new Stack<Integer>();
+        while (!stack.isEmpty()) {
+            int v = stack.pop();
+            while (!adj[v].isEmpty()) {
+                Edge edge = adj[v].dequeue();
+                if (edge.isUsed) continue;
+                edge.isUsed = true;
+                stack.push(v);
+                v = edge.other(v);
+            }
+            // push vertex with no more leaving edges to cycle
+            cycle.push(v);
+        }
+
+        // check if all edges are used
+        if (cycle.size() != E + 1)
+            cycle = null;
+		
+		return cycle;
+}		
 
     /**
      * Unit tests the <tt>Graph</tt> data type.
@@ -251,8 +362,16 @@ public class Graph {
         In in = new In(args[0]);
         Graph G = new Graph(in);
         StdOut.println(G);
-    }
-
+        
+        if (G.hasEuler()) {
+			G.getCicloEuleriano();
+			for (int v : G.cycle()) {
+				StdOut.print(v + " ");
+			}
+		} else {
+			System.out.println("El Grafo no tiene ciclo de Euler.");
+		}
+	}
 }
 
 /******************************************************************************
