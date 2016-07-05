@@ -1,0 +1,15 @@
+Hola!
+Me puse a ver si podia hacer el primero y logré algo, pero no es exactamente la solucion que pide el enunciado, el programa no busca todos los caminos a los anillos. Lo que hice fue un bfs desde el nodo inicial y luego descarto los caminos que no tienen anillos, entonces para el primer ejemplo me quedan 2 caminos en vez de 4
+Para hallar la salida lo que hace es para cada camino encontrado con anillo, hace otro bfs desde el nodo final hasta la salida, y si encuentra camino, esa es la solucion
+
+para el primer ejemplo resulta:
+
+[0, 1, 4]
+
+[0, 2, 5]
+
+El problema tiene solucion.
+
+[0, 1, 4, 5, 2, 0, 3]
+
+

@@ -1,0 +1,12 @@
+﻿	Adolfo Jeritson. 12-10523
+
+	Para resolver el problema 2, tomé el algoritmo de visita de nodos usando búsqueda en profundidad en versión recursiva, visto en clase, y lo adapté para que pudiera devolver sólo un camino que sea válido como respuesta.
+
+	El algoritmo empieza con un camino que solo contiene al nodo de inicio, especificado en el archivo  de entrada, luego se expande a cada uno de los sucesores recursivamente, creando los caminos hacia cada uno y actualizando el costo para cada uno. Se crea una copia del grafo en cada llamada recursiva y se elimina el lado recorrido para evitar repetir infinitamente un camino, esta forma es equivalente a crear una copia para cada llamada recursiva de una lista para verificar si un nodo ya fue visitado.
+
+	Esto se repite hasta que se detecta que un sucesor es el nodo terminal especificado en el archivo. Una vez encontrado este camino, se hacen dos verificaciones: que el costo acumulado del camino sea menor o igual al presupuesto, y que en el camino no se haya utilizado un transporte que el cliente dijo que no queria usar, entonces el algoritmo se detiene y retorna el camino (El ejercicio solo nos pide devolver un camino). En caso de no cumplir alguna de las condiciones, se descarta y se siguen buscando caminos posibles recursivamente.
+
+	Para guardar los costos y transportes de cada tramo, se utilizan dos matrices diferentes, a las cuales se puede acceder al valor correspondiente usando los nodos extremos de cada lado.
+
+	Para verificar si un camino se anula porque usa un transporte que el cliente no quiere, simplemente iteramos por el camino posible dado y la lista de transportes bloqueados, si se encuentra que alguno coincide, la funcion retorna un valor que le indica al algoritmo que debe desechar el camino.
+

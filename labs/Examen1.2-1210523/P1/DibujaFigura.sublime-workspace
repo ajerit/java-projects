@@ -1,0 +1,491 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"trans",
+				"transportes"
+			],
+			[
+				"prin",
+				"println"
+			],
+			[
+				"no",
+				"noQuieroTransportes"
+			],
+			[
+				"cami",
+				"caminoViejo"
+			],
+			[
+				"print",
+				"printSol"
+			],
+			[
+				"nodo",
+				"nodosEnUso"
+			],
+			[
+				"camino",
+				"caminoActual"
+			],
+			[
+				"cam",
+				"caminoActual"
+			],
+			[
+				"int",
+				"int"
+			],
+			[
+				"cost",
+				"costoFinal"
+			],
+			[
+				"ruta",
+				"rutaFinal"
+			],
+			[
+				"hay",
+				"haySolucion"
+			],
+			[
+				"St",
+				"StdOut"
+			],
+			[
+				"st",
+				"StdOut"
+			],
+			[
+				"n",
+				"nodoSalida"
+			],
+			[
+				"get",
+				"getRingPaths"
+			],
+			[
+				"path",
+				"pathHasRing"
+			],
+			[
+				"pa",
+				"pathTieneAnillo"
+			],
+			[
+				"v",
+				"v	variable"
+			],
+			[
+				"nood",
+				"nodoInicial"
+			],
+			[
+				"G",
+				"Graph"
+			],
+			[
+				"ge",
+				"getAllDirectedPath"
+			],
+			[
+				"arc",
+				"arcosVisitados"
+			],
+			[
+				"al",
+				"allPaths"
+			],
+			[
+				"cl",
+				"closedPaths"
+			],
+			[
+				"isIn",
+				"isInOpenPaths"
+			],
+			[
+				"el",
+				"elif	else if"
+			],
+			[
+				"to",
+				"toString"
+			],
+			[
+				"clau",
+				"clausuraTrans"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"P",
+				"PortfolioAdmin"
+			],
+			[
+				"Pho",
+				"PhotoInline"
+			],
+			[
+				"portfo",
+				"portfolio"
+			],
+			[
+				"portfoli",
+				"portfolio_id"
+			],
+			[
+				"por",
+				"portfolio"
+			],
+			[
+				"port",
+				"portTitle"
+			],
+			[
+				"out",
+				"outdegree"
+			],
+			[
+				"In",
+				"Integer"
+			],
+			[
+				"con",
+				"containsEdge"
+			],
+			[
+				"cons",
+				"containsVertex"
+			],
+			[
+				"pri",
+				"println"
+			],
+			[
+				"pr",
+				"println"
+			],
+			[
+				"s",
+				"System"
+			],
+			[
+				"d",
+				"double"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 342.0,
+		"last_filter": "packa",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 398.0
+	},
+	"console":
+	{
+		"height": 265.0,
+		"history":
+		[
+			"open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen('http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()));",
+			"ipp = sublime.installed_packages_path();",
+			"import urllib.request,os; pf = 'Package Control.sublime-package';",
+			"ipp = sublime.installed_packages_path(); urllib.request.install_",
+			"import urllib.request,os; pf = 'Package Control.sublime-package';"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/adolfo/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/adolfo/Desktop/Java/labs/Examen1.2-1210523/P2/SoporteTurista.java",
+		"/home/adolfo/Desktop/Java/labs/Examen1/Problema1/Graph.java",
+		"/home/adolfo/Desktop/Java/labs/Examen1/Problema2/In.java",
+		"/home/adolfo/Desktop/Java/labs/Examen1/Problema1/DibujaFigura.java",
+		"/home/adolfo/Desktop/Java/labs/Examen1/Problema1/SoporteTurista.java",
+		"/home/adolfo/Desktop/Java/labs/Examen1/Problema2/SoporteTurista.java",
+		"/home/adolfo/Desktop/Java/labs/Examen1/Problema1/Makefile",
+		"/home/adolfo/Desktop/Java/labs/Examen1/Problema2/Makefile",
+		"/home/adolfo/Desktop/Java/labs/Examen1/Problema2/Turista.java",
+		"/home/adolfo/Desktop/Java/labs/Proyecto1/Problema2/Makefile",
+		"/home/adolfo/Desktop/Java/labs/Proyecto1/Problema2/Digraph.java",
+		"/home/adolfo/Desktop/Java/labs/Proyecto1/Problema2/Vla.java",
+		"/home/adolfo/Desktop/Java/labs/LabSem5/Digraph.java",
+		"/home/adolfo/Desktop/Java/labs/Examen1/Problema1/BreadthFirstSearch.java",
+		"/home/adolfo/Desktop/Java/labs/Examen1/Problema1/Turista.java",
+		"/home/adolfo/Desktop/Java/labs/Examen1/Problema1/Moria.java",
+		"/home/adolfo/Desktop/Java/labs/Proyecto1/Problema1/Makefile",
+		"/home/adolfo/Desktop/Java/labs/Proyecto1/Problema1/Moria.java",
+		"/home/adolfo/Dropbox/PreLab5/Proyecto 1 CI2693/Problema1/Moria.java",
+		"/home/adolfo/Desktop/Java/labs/Proyecto1/Problema1/Graph.java",
+		"/home/adolfo/Desktop/Java/labs/Proyecto1/Problema1/BreadthFirstSearch.java",
+		"/home/adolfo/Desktop/Java/labs/Proyecto1/Problema1/DepthFirstSearch.java",
+		"/media/adolfo/Adolfo/AE3/Lab/LabCaballo/LabSem5.java",
+		"/home/adolfo/Desktop/Java/labs/Proyecto1/Problema1/Pasillo.java",
+		"/home/adolfo/Desktop/Java/labs/Proyecto1/Problema1/Bag.java",
+		"/home/adolfo/Desktop/Java/labs/Proyecto1/Problema1/DepthFirstSearchDirected.java",
+		"/home/adolfo/Desktop/Java/labs/Proyecto1/Problema1/BreadthFirstSearchDirected.java",
+		"/home/adolfo/Desktop/Java/labs/Proyecto1/Problema1/Arc.java",
+		"/home/adolfo/Desktop/Java/labs/Proyecto1/Problema1/Digraph.java",
+		"/home/adolfo/Desktop/Java/labs/Lab4/Queue.java",
+		"/home/adolfo/.cache/.fr-56vCpu/Makefile",
+		"/home/adolfo/Dropbox/PreLab5/DepthFirstSearchDirected.java",
+		"/home/adolfo/Desktop/Java/labs/Lab4/DepthFirstSearchDirected.java",
+		"/home/adolfo/Desktop/Java/labs/Lab4/Makefile",
+		"/home/adolfo/Dropbox/PreLab5/Makefile",
+		"/home/adolfo/Dropbox/PreLab5/BreadthFirstSearchDirected.java",
+		"/home/adolfo/Desktop/Java/labs/Lab4/BreadthFirstSearchDirected.java",
+		"/home/adolfo/Dropbox/PreLab5/PruebaPreLabSem5.java",
+		"/home/adolfo/Desktop/Java/labs/Lab4/useles_DepthFirstSearchDirected.java",
+		"/home/adolfo/Desktop/Java/labs/Lab4/Stack.java",
+		"/home/adolfo/Desktop/Java/labs/Lab4/PruebaLabSem4.java",
+		"/home/adolfo/Desktop/Java/labs/Lab4/Digraph.java",
+		"/home/adolfo/Desktop/Java/labs/Lab4/PruebaPreLabSem5.java",
+		"/home/adolfo/Desktop/Java/practica/HolaMundo.java",
+		"/home/adolfo/Desktop/Java/labs/Lab4/AdjMatrixDigraph.java",
+		"/home/adolfo/Desktop/Java/labs/Lab3/BreadthFirstSearchDirected.java",
+		"/home/adolfo/Desktop/Java/labs/Lab3/DepthFirstSearchDirected.java",
+		"/home/adolfo/Desktop/Java/labs/Lab3/Graph.java",
+		"/home/adolfo/Desktop/Java/labs/Lab3/Arc.java",
+		"/home/adolfo/Desktop/Java/labs/Lab3/Bag.java",
+		"/home/adolfo/Desktop/Java/labs/Lab3/AdjMatrixDigraph.java",
+		"/home/adolfo/Desktop/Java/labs/Lab3/AdjMatrix.java",
+		"/media/adolfo/Adolfo/AE3/Lab/Lab3/Path.java",
+		"/home/adolfo/Desktop/Java/labs/Lab3/Digraph.java",
+		"/home/adolfo/Desktop/Java/labs/Lab3/Stack.java",
+		"/home/adolfo/Desktop/Java/labs/Lab3/Path.java",
+		"/home/adolfo/Documents/Python/adt/stack.py",
+		"/home/adolfo/Documents/Python/adt/linkedList.py",
+		"/home/adolfo/Documents/Python/adt/hashtableWithChaining/dlist.py",
+		"/home/adolfo/Documents/Haskell/test.hs",
+		"/home/adolfo/Desktop/Django/website_env/django-myweb/portfolio/models.py",
+		"/home/adolfo/Desktop/Django/website_env/django-myweb/portfolio/urls.py",
+		"/home/adolfo/Desktop/Django/website_env/django-myweb/portfolio/tests.py",
+		"/home/adolfo/Desktop/Django/website_env/django-myweb/myweb/urls.py",
+		"/home/adolfo/Desktop/Django/website_env/django-myweb/portfolio/admin.py",
+		"/home/adolfo/Desktop/Django/website_env/django-myweb/myweb/settings.py",
+		"/home/adolfo/Desktop/Django/website_env/django-myweb/templates/admin/base_site.html",
+		"/home/adolfo/Documents/index.php",
+		"/home/adolfo/Desktop/Django/website_env/django-myweb/index/templates/index/modal_gen.html",
+		"/home/adolfo/Desktop/Django/website_env/django-myweb/index/templatetags/modal_gen.py",
+		"/home/adolfo/Desktop/Django/website_env/django-myweb/index/templatetags/port_view.py",
+		"/home/adolfo/Desktop/Django/website_env/django-myweb/index/templates/port_view.html",
+		"/home/adolfo/Desktop/Django/website_env/django-myweb/index/urls.py",
+		"/home/adolfo/Desktop/Django/website_env/django-myweb/index/templates/index/index.html",
+		"/home/adolfo/Desktop/Django/website_env/django-myweb/portfolio/views.py",
+		"/home/adolfo/Desktop/Django/website_env/django-myweb/.ebextensions/django.config",
+		"/home/adolfo/Desktop/Django/website_env/django-myweb/portfolio/templates/portfolio/detail.html",
+		"/home/adolfo/Desktop/Django/website_env/django-myweb/portfolio/templates/portfolio/index.html",
+		"/home/adolfo/Desktop/Django/website_env/django-myweb/myweb/local_settings.py",
+		"/home/adolfo/Desktop/Django/website_env/django-myweb/portfolio/templates/portfolio/photodetail.html",
+		"/home/adolfo/Desktop/Django/website_env/django-myweb/index/templatetags/nav.py",
+		"/home/adolfo/Desktop/Django/website_env/django-myweb/index/templatetags/footer.py",
+		"/home/adolfo/Desktop/Django/website_env/django-myweb/index/templates/footer.html",
+		"/home/adolfo/Desktop/Django/website_env/django-myweb/index/models.py",
+		"/home/adolfo/Desktop/Django/website_env/django-myweb/index/templates/header.html",
+		"/home/adolfo/Desktop/Django/website_env/django-myweb/index/views.py",
+		"/home/adolfo/Desktop/Django/website_env/django-myweb/index/templates/nav.html",
+		"/home/adolfo/Desktop/Django/website_env/django-myweb/index/templatetags/header.py",
+		"/home/adolfo/Desktop/Django/website_env/django-myweb/index/templates/index/port_view.html",
+		"/home/adolfo/Desktop/Django/website_env/django-myweb/index/templates/index/view_port.html",
+		"/home/adolfo/Desktop/Django/website_env/django-myweb/index/templatetags/__init__.py",
+		"/home/adolfo/Desktop/Django/website_env/django-myweb/index/__init__.py",
+		"/home/adolfo/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/etc/mysql/my.cnf",
+		"/home/adolfo/Desktop/Django/website_env/django-myweb/manage.py",
+		"/home/adolfo/Desktop/Django/notas/notas/urls.py",
+		"/home/adolfo/Dropbox/USB/ABJU15/ProyectoCI2691/proyecto.py",
+		"/home/adolfo/Dropbox/USB/ABJU15/ProyectoCI2691/proyectoEntrega1.py",
+		"/home/adolfo/Documents/Python/proyecto.py",
+		"/media/adolfo/My Passport/Adolfo/Programación/Python/diferentedesdek.py",
+		"/media/adolfo/My Passport/Adolfo/Programación/Python/sumafactacotada.py",
+		"/home/adolfo/Dropbox/USB/ABJU15/LabAlgos1/parcial1.py",
+		"/home/adolfo/Documents/Python/sorting/binary.py",
+		"/home/adolfo/Documents/Python/sorting/bubble.py",
+		"/home/adolfo/Documents/Python/sorting/counting.py",
+		"/home/adolfo/Documents/Python/sorting/heapsort.py",
+		"/home/adolfo/Documents/Python/sorting/insertion.py",
+		"/home/adolfo/Documents/Python/sorting/quicksort.py",
+		"/home/adolfo/Documents/Python/sorting/mergesort.py",
+		"/home/adolfo/Documents/Python/sorting/selection.py",
+		"/home/adolfo/Documents/Python/sorting/linear.py",
+		"/home/adolfo/Documents/Python/sorting/randquicksort.py",
+		"/home/adolfo/Documents/Python/adt/project/reproductor.py",
+		"/home/adolfo/Documents/Python/adt/project/cancion.py",
+		"/home/adolfo/Documents/Python/adt/hashtableWithCuckoo/cuco_htable.py",
+		"/home/adolfo/Documents/Python/adt/hashtableWithCuckoo/cuco_testh.py",
+		"/home/adolfo/Documents/Python/adt/hashtableWithUniversal/dlist.py",
+		"/home/adolfo/Documents/Python/adt/hashtableWithUniversal/hashtable.py",
+		"/home/adolfo/Documents/Python/adt/hashtableWithUniversal/hashEntry.py",
+		"/home/adolfo/Documents/Python/adt/hashtableWithChaining/hashEntry.py",
+		"/home/adolfo/Documents/Python/adt/hashtableWithChaining/testhash.py",
+		"/home/adolfo/Documents/Python/adt/hashtableWithChaining/hashtable.py",
+		"/home/adolfo/Documents/Python/adt/conjunto.py",
+		"/home/adolfo/Documents/Python/adt/queue.py",
+		"/home/adolfo/Documents/Python/adt/cliente.py",
+		"/media/adolfo/My Passport/Adolfo/USB/Algoritmos2/Labs/HashingUniversal/new/dlist.py",
+		"/media/adolfo/My Passport/Adolfo/USB/Algoritmos2/Labs/HashingUniversal/new/testhash.py"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"stack",
+			"tiene",
+			"topePila",
+			"ArrayList",
+			"stabs",
+			"choice_set",
+			"Question",
+			"polls",
+			"charac",
+			"counter",
+			"double",
+			"nIter"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"iter"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "DibujaFigura.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 44.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,10 @@
+Hola!
+Me puse a ver si podia hacer el primero y logré algo, pero no es exactamente la solucion que pide el enunciado, el programa no busca todos los caminos a los anillos. Lo que hice fue un dfs desde el nodo inicial y luego descarto los caminos que no tienen anillos, entonces para el primer ejemplo me quedan 2 caminos en vez de 4
+Para hallar la salida lo que hace es para cada camino encontrado con anillo, hace otro dfs desde el nodo final hasta la salida, y si encuentra camino, esa es la solucion
+
+Hay algo que no entiendo del enunciado, en el primer ejemplo dice que hay un camino 0 2 5 4 1, pero hay un lado 4-5, asi que no se porque lo muestra asi. Igual la solucion que es 0 1 4 5 2 0 3, pasan del 4 al 5 directo pero no hay camino entr ellos, no sé si soy yo que lo estoy viendo mal o es un error. Por la entrada el primer grafo deberia ser asi no?
+
+3 --- 0 --- 1 --- 4
+      | \
+      |  \
+      2 --5
